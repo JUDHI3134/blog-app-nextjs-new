@@ -3,6 +3,7 @@ import Container from "./Container"
 import ThemeToggle from "./ThemeToggle"
 import SearchInput from "./SearchInput"
 import Notifications from "./Notifications"
+import UserButton from "./UserButton"
 
 const Navbar = () => {
     return (
@@ -19,7 +20,7 @@ const Navbar = () => {
                 <div className='flex items-center gap-5 sm:gap-8'>
                     <ThemeToggle />
                     <Notifications />
-                    <div>user menu</div>
+                    <UserButton />
                 </div>
             </div>
             </Container>
