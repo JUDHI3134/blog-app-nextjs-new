@@ -12,6 +12,7 @@ interface FormFieldProps<T extends FieldValues>{
     inputClassNames?: string,
     register: UseFormRegister<T>,
     errors: FieldErrors
+
 }
 
 const FormField = < T extends FieldValues>({ id, type, disabled, placeholder, label, inputClassNames, register, errors }: FormFieldProps<T>) => {
